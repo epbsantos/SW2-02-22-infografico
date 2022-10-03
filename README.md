@@ -17,6 +17,6 @@ Fonte:
 ## Idéias para plugins visual (organização do inforgŕafico)
 - [onepage-scroll](https://github.com/peachananr/onepage-scroll)
 - [fullpage.js](https://github.com/alvarotrigo/fullpage.js)
-- [impress.js](https://github.com/impress/impress.js)
+- [impress.js](https://github.com/impress/impress.js) - [exemplo](https://epbsantos.github.io/SW2-02-22-infografico/id%C3%A9ia%20de%20slides/impress.html)
 - [remark](https://github.com/gnab/remark)
 - [reveal.js](https://github.com/hakimel/reveal.js)
