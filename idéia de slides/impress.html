@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro código em impress</title>
+    <style>
+        .step {
+            
+            background-color: #aaa;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="impress"
+    data-transition-duration="1000"
+
+    data-width="1024"
+    data-height="768"
+    data-max-scale="5"
+    data-min-scale="0"
+    data-perspective="3000"
+
+    data-autoplay="7">
+
+    
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="2">
+        <span class="try">then you should try</span>
+        <h1>impress.js<sup>*</sup></h1>
+        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+        <a href="https://github.com/impress/impress.js/blob/master/DOCUMENTATION.md" target="_blank">documentação [EN]</a>
+    </div>
+
+    <div id="bored" class="step" data-x="-1000">
+        <q>Aren’t you just <b>bored</b> with all those slides-based presentations?</q>
+    </div>
+
+    <div id="bored2" class="step" data-x="-2000">
+        <q>Vc não está desanimado com estes slides?</q>
+    </div>
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>
+          It’s a <strong>presentation tool</strong> <br>
+          inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br>
+          and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.
+        </p>
+    </div>
+
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>and <b>tiny</b> ideas</p>
+    </div>
+
+
+
+
+    </div>
+
+
+    <script type="text/javascript" src="impress.js"></script>
+    <script>impress().init();</script>
+    
+</body>
+</html>
