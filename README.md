@@ -7,3 +7,8 @@ Disponível em:
 
 Fonte:
 [divulgacandcontas.tse.jus.br](https://divulgacandcontas.tse.jus.br/divulga/#/estados/2022/2040602022/BR/candidatos)
+
+
+## Grupos de trabalhos
+- Visual
+- Organização dos dados
