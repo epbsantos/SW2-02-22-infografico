@@ -9,7 +9,7 @@
 
 ## Pesquisa
 -Guilherme B. Spiger (guispiger)
-
+-Érica A Immich
 
 
 ## Imagens (edição)
