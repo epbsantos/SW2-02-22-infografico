@@ -5,7 +5,7 @@
 
 
 ## Back (Programação)
-
+-Lucas Oliveira
 
 ## Pesquisa
 -Guilherme B. Spiger (guispiger)
