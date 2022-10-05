@@ -7,6 +7,8 @@
 
 
 ## Pesquisa
+-Guilherme B. Spiger (guispiger)
+
 
 
 ## Imagens (edição)
