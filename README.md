@@ -9,9 +9,7 @@ Fonte:
 [divulgacandcontas.tse.jus.br](https://divulgacandcontas.tse.jus.br/divulga/#/estados/2022/2040602022/BR/candidatos)
 
 
-## Grupos de trabalhos
-- Visual
-- Organização dos dados
+## [Grupos de trabalhos](organizacao.md)
 
 
 ## Idéias para plugins visual (organização do inforgŕafico)
