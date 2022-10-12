@@ -8,17 +8,17 @@
 -Lucas Oliveira
 
 ## Pesquisa
-Educação Lula - Matheus Leal ✅
-Educação Bolsonaro - 
+Educação Lula - Matheus Leal <br>
+Educação Bolsonaro - <br>
 
-Saúde Lula - João Pedro ✅
-Saúde Bolsonaro - Matheus ✅
+Saúde Lula - João Pedro <br>
+Saúde Bolsonaro - Matheus <br>
 
-Economia Lula - Érica A Immich ✅
-Economia Bolsonaro - Guilherme B. Spiger (guispiger) ✅
+Economia Lula - Érica A Immich <br>
+Economia Bolsonaro - Guilherme B. Spiger (guispiger) <br>
 
-Segurança pública Lula -
-Segurança pública Bolsonaro - Jean ✅
+Segurança pública Lula - <br>
+Segurança pública Bolsonaro - Jean <br>
 
 
 ## Imagens (edição)
