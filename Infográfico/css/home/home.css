@@ -1,0 +1,253 @@
+@-webkit-keyframes mexer {
+  0% {
+    rotate: 5deg;
+  }
+  50% {
+    rotate: -3deg;
+  }
+  100% {
+    rotate: 5deg;
+  }
+}
+@keyframes mexer {
+  0% {
+    rotate: 5deg;
+  }
+  50% {
+    rotate: -3deg;
+  }
+  100% {
+    rotate: 5deg;
+  }
+}
+.fita {
+  background-image: url("../../img/fitas.png");
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../img/planalto.png");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+@media (max-width: 612px) {
+  main {
+    flex-direction: column;
+  }
+}
+main .main-1 {
+  width: 70%;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
+  flex-direction: column;
+  position: absolute;
+}
+@media (max-width: 612px) {
+  main .main-1 {
+    flex-direction: column;
+    background-color: transparent;
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 100vh;
+  }
+}
+main .main-1 h1 {
+  font-weight: 800;
+  font-size: 10vh;
+  color: #e9e9e9;
+}
+@media (max-width: 612px) {
+  main .main-1 h1 {
+    font-size: 5vh;
+    text-align: center;
+  }
+}
+main .main-1 p {
+  font-size: 3vh;
+  color: #eee;
+}
+@media (max-width: 612px) {
+  main .main-1 p {
+    font-size: 2.4vh;
+    text-align: center;
+  }
+}
+main .main-1 .btn-home {
+  color: #eee;
+  background-color: #556b2f;
+  border: 2px #556b2f solid;
+  width: 100%;
+  height: 6vh;
+  font-size: 2vh;
+  max-width: 300px;
+  min-width: 100px;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+main .main-1 .btn-home:hover {
+  color: #556b2f;
+  background-color: transparent;
+  border: 2px #556b2f solid;
+  transition: 0.4s;
+}
+main .wave {
+  background-image: url("../../img/svg/wave1.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  background-position: bottom;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+}
+section p {
+  font-size: 6vh;
+  text-align: center;
+  font-weight: 800;
+  height: 10vh;
+}
+@media (max-width: 612px) {
+  section p {
+    font-size: 4vh;
+  }
+}
+
+.sec-candidatos {
+  width: 100%;
+  height: 90vh;
+  background-color: #eee;
+  display: flex;
+}
+@media (max-width: 612px) {
+  .sec-candidatos {
+    flex-direction: column;
+  }
+}
+.sec-candidatos .lula {
+  width: 50%;
+  height: 90vh;
+  background-color: transparent;
+}
+@media (max-width: 612px) {
+  .sec-candidatos .lula {
+    width: 100%;
+    height: 40vh;
+  }
+}
+.sec-candidatos .lula .img-lula {
+  background-image: url("../../img/Lula/fotoLulaHome.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60vh;
+  width: auto;
+  height: 70vh;
+  transition: 0.4s;
+  z-index: 1;
+}
+@media (max-width: 612px) {
+  .sec-candidatos .lula .img-lula {
+    background-size: 30vh;
+    height: 40vh;
+  }
+}
+.sec-candidatos .lula .img-lula:hover {
+  transform: scale(107%);
+  transition: 0.4s;
+}
+.sec-candidatos .lula .nome-lula {
+  background-color: transparent;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 612px) {
+  .sec-candidatos .lula .nome-lula {
+    text-align: center;
+    height: 5vh;
+  }
+}
+.sec-candidatos .lula .nome-lula p {
+  font-size: 10vh;
+  font-weight: 800;
+}
+@media (max-width: 612px) {
+  .sec-candidatos .lula .nome-lula p {
+    font-size: 5vh;
+  }
+}
+.sec-candidatos .bolsonaro {
+  width: 50%;
+  height: 90vh;
+  background-color: transparent;
+}
+@media (max-width: 612px) {
+  .sec-candidatos .bolsonaro {
+    padding-top: 10%;
+    width: 100%;
+    height: 40vh;
+  }
+}
+.sec-candidatos .bolsonaro .img-bolsonaro {
+  background-image: url("../../img/Bolsonaro/fotoBolsonaroHome.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60vh;
+  width: auto;
+  height: 70vh;
+  transition: 0.4s;
+  z-index: 1;
+}
+@media (max-width: 612px) {
+  .sec-candidatos .bolsonaro .img-bolsonaro {
+    background-size: 30vh;
+    height: 40vh;
+  }
+}
+.sec-candidatos .bolsonaro .img-bolsonaro:hover {
+  transform: scale(107%);
+  transition: 0.4s;
+}
+.sec-candidatos .bolsonaro .nome-bolsonaro {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 612px) {
+  .sec-candidatos .bolsonaro .nome-bolsonaro {
+    text-align: center;
+    height: 5vh;
+  }
+}
+.sec-candidatos .bolsonaro .nome-bolsonaro p {
+  font-size: 10vh;
+  font-weight: 800;
+}
+@media (max-width: 612px) {
+  .sec-candidatos .bolsonaro .nome-bolsonaro p {
+    font-size: 5vh;
+  }
+}/*# sourceMappingURL=home.css.map */
