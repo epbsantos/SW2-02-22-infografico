@@ -2,6 +2,7 @@
 
 ## Front (layout)
 -Emanuelle Machado
+-João Gustavo Lazzaretti
 
 
 ## Back (Programação)
