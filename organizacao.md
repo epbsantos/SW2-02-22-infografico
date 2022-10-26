@@ -1,7 +1,8 @@
 # Organização das equipes
 
 ## Front (layout)
--Emanuelle Machado
+-Emanuelle Machado  
+
 -João Gustavo Lazzaretti
 
 
