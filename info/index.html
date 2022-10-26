@@ -25,33 +25,33 @@
 
     <main>
         <div class="main-1">
-            <h1>Eleição 2022</h1>
-            <p>Fique por dentro das principais propostas dos candidatos à presidência da república do ano de 2022.</p>
-            <a class="btn-home" href="#candidatos" data-bs-toggle="tooltip" data-bs-placement="top" title="Veja as propostas dos candidatos!">SAIBA MAIS!</a>
+            <h1 data-aos="slide-right">Eleição 2022</h1>
+            <p data-aos="slide-left"> Fique por dentro das principais propostas dos candidatos à presidência da república do ano de 2022.</p>
+            <a data-aos="slide-left" class="btn-home" href="#candidatos" title="Veja as propostas dos candidatos!"><div class="anima"><box-icon  color='#fff' name='mouse'></box-icon><box-icon name='chevrons-down' color='#ffffff' ></box-icon></div> </a>
         </div>
         <div class="wave"></div>
     </main>
     <section id="candidatos">
         <div class="container">
             <div class="row">
-                <p>Selecione um candidato:</p>
+                <p class="selecione">Selecione um candidato:</p>
             </div>
         <div class="sec-candidatos">
 
             <div class="lula">
                 <a href="#">
-                    <div data-bs-toggle="tooltip" data-bs-placement="top" title="Candidato Luiz Inácio Lula da Silva" data-aos="flip-right" class="img-lula"></div>
+                    <div title="Candidato Luiz Inácio Lula da Silva" data-aos="flip-right" class="img-lula"></div>
                 </a>
                 <div class="nome-lula">
-                    <p>Lula 13</p>
+                    <label>Lula</label>
                 </div>
             </div>
             <div class="bolsonaro">
                 <a href="#">
-                    <div data-bs-toggle="tooltip" data-bs-placement="top" title="Candidato Jair Messias Bolsonaro" data-aos="flip-left" class="img-bolsonaro"></div>
+                    <div title="Candidato Jair Messias Bolsonaro" data-aos="flip-left" class="img-bolsonaro"></div>
                 </a>
                 <div class="nome-bolsonaro">
-                    <p>Bolsonaro 22</p>
+                    <label>Bolsonaro</label>
                 </div>
             </div>
         </div>
@@ -59,6 +59,8 @@
 
 
 
+<!--Box Icons-->
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <!--AOS-->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
