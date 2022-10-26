@@ -1,25 +1,33 @@
 @-webkit-keyframes mexer {
   0% {
-    rotate: 5deg;
+    -webkit-transform: translateY(9px);
+            transform: translateY(9px);
   }
   50% {
-    rotate: -3deg;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
   }
   100% {
-    rotate: 5deg;
+    -webkit-transform: translateY(9px);
+            transform: translateY(9px);
   }
 }
+
 @keyframes mexer {
   0% {
-    rotate: 5deg;
+    -webkit-transform: translateY(9px);
+            transform: translateY(9px);
   }
   50% {
-    rotate: -3deg;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
   }
   100% {
-    rotate: 5deg;
+    -webkit-transform: translateY(9px);
+            transform: translateY(9px);
   }
 }
+
 .fita {
   background-image: url("../../img/fitas.png");
   width: 100px;
@@ -32,59 +40,80 @@
 main {
   width: 100%;
   height: 100vh;
-  background-image: url("../../img/planalto.png");
+  background-image: url("../../img/teste.jpg");
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
 }
+
 @media (max-width: 612px) {
   main {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
+
 main .main-1 {
   width: 70%;
   height: 100vh;
   background-color: transparent;
-  display: flex;
-  justify-content: center;
+  margin-top: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-left: 5%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: absolute;
 }
+
 @media (max-width: 612px) {
   main .main-1 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: transparent;
     width: 100%;
     padding-left: 0;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-left: 3%;
     padding-right: 3%;
     height: 100vh;
   }
 }
+
 main .main-1 h1 {
   font-weight: 800;
   font-size: 10vh;
   color: #e9e9e9;
 }
+
 @media (max-width: 612px) {
   main .main-1 h1 {
     font-size: 5vh;
     text-align: center;
   }
 }
+
 main .main-1 p {
   font-size: 3vh;
   color: #eee;
 }
+
 @media (max-width: 612px) {
   main .main-1 p {
     font-size: 2.4vh;
     text-align: center;
   }
 }
+
 main .main-1 .btn-home {
   color: #eee;
   background-color: #556b2f;
@@ -95,19 +124,37 @@ main .main-1 .btn-home {
   max-width: 300px;
   min-width: 100px;
   padding: 10px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
   border-radius: 10px;
-  transition: 0.4s;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
+
+main .main-1 .btn-home .anima {
+  -webkit-animation: mexer 2s ease-in-out infinite;
+          animation: mexer 2s ease-in-out infinite;
+}
+
+main .main-1 .btn-home .anima box-icon {
+  color: #fff;
+}
+
 main .main-1 .btn-home:hover {
-  color: #556b2f;
   background-color: transparent;
   border: 2px #556b2f solid;
-  transition: 0.4s;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
+
 main .wave {
   background-image: url("../../img/svg/wave1.svg");
   background-repeat: no-repeat;
@@ -122,12 +169,15 @@ section {
   height: 100vh;
   background-color: #eee;
 }
+
 section p {
   font-size: 6vh;
   text-align: center;
   font-weight: 800;
   height: 10vh;
+  z-index: 3;
 }
+
 @media (max-width: 612px) {
   section p {
     font-size: 4vh;
@@ -138,116 +188,173 @@ section p {
   width: 100%;
   height: 90vh;
   background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
-@media (max-width: 612px) {
+
+@media (max-width: 768px) {
   .sec-candidatos {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
+
 .sec-candidatos .lula {
   width: 50%;
   height: 90vh;
   background-color: transparent;
 }
-@media (max-width: 612px) {
+
+@media (max-width: 768px) {
   .sec-candidatos .lula {
+    margin-top: 15%;
     width: 100%;
     height: 40vh;
   }
 }
+
 .sec-candidatos .lula .img-lula {
   background-image: url("../../img/Lula/fotoLulaHome.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 60vh;
+  background-size: 50vh;
   width: auto;
   height: 70vh;
-  transition: 0.4s;
+  -webkit-transition: .4s;
+  transition: .4s;
   z-index: 1;
 }
-@media (max-width: 612px) {
+
+@media (max-width: 992px) {
   .sec-candidatos .lula .img-lula {
-    background-size: 30vh;
-    height: 40vh;
+    background-size: 40vh;
   }
 }
-.sec-candidatos .lula .img-lula:hover {
-  transform: scale(107%);
-  transition: 0.4s;
+
+@media (max-width: 768px) {
+  .sec-candidatos .lula .img-lula {
+    background-size: 40vh;
+    height: 50vh;
+  }
 }
+
+.sec-candidatos .lula .img-lula:hover {
+  -webkit-transform: scale(107%);
+          transform: scale(107%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
 .sec-candidatos .lula .nome-lula {
   background-color: transparent;
   height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 @media (max-width: 612px) {
   .sec-candidatos .lula .nome-lula {
     text-align: center;
     height: 5vh;
   }
 }
-.sec-candidatos .lula .nome-lula p {
-  font-size: 10vh;
+
+.sec-candidatos .lula .nome-lula label {
+  font-size: 8vh;
   font-weight: 800;
 }
-@media (max-width: 612px) {
-  .sec-candidatos .lula .nome-lula p {
-    font-size: 5vh;
+
+@media (max-width: 768px) {
+  .sec-candidatos .lula .nome-lula label {
+    font-size: 7vh;
   }
 }
+
 .sec-candidatos .bolsonaro {
   width: 50%;
   height: 90vh;
   background-color: transparent;
 }
-@media (max-width: 612px) {
+
+@media (max-width: 768px) {
   .sec-candidatos .bolsonaro {
     padding-top: 10%;
     width: 100%;
     height: 40vh;
+    margin-top: 20%;
   }
 }
+
 .sec-candidatos .bolsonaro .img-bolsonaro {
   background-image: url("../../img/Bolsonaro/fotoBolsonaroHome.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 60vh;
+  background-size: 50vh;
   width: auto;
   height: 70vh;
-  transition: 0.4s;
+  -webkit-transition: .4s;
+  transition: .4s;
   z-index: 1;
 }
-@media (max-width: 612px) {
+
+@media (max-width: 992px) {
   .sec-candidatos .bolsonaro .img-bolsonaro {
-    background-size: 30vh;
-    height: 40vh;
+    background-size: 40vh;
   }
 }
-.sec-candidatos .bolsonaro .img-bolsonaro:hover {
-  transform: scale(107%);
-  transition: 0.4s;
+
+@media (max-width: 768px) {
+  .sec-candidatos .bolsonaro .img-bolsonaro {
+    background-size: 40vh;
+    height: 50vh;
+  }
 }
+
+.sec-candidatos .bolsonaro .img-bolsonaro:hover {
+  -webkit-transform: scale(107%);
+          transform: scale(107%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
 .sec-candidatos .bolsonaro .nome-bolsonaro {
   background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-@media (max-width: 612px) {
+
+@media (max-width: 768px) {
   .sec-candidatos .bolsonaro .nome-bolsonaro {
     text-align: center;
     height: 5vh;
   }
 }
-.sec-candidatos .bolsonaro .nome-bolsonaro p {
-  font-size: 10vh;
+
+.sec-candidatos .bolsonaro .nome-bolsonaro label {
+  font-size: 8vh;
   font-weight: 800;
 }
-@media (max-width: 612px) {
-  .sec-candidatos .bolsonaro .nome-bolsonaro p {
-    font-size: 5vh;
+
+@media (max-width: 768px) {
+  .sec-candidatos .bolsonaro .nome-bolsonaro label {
+    font-size: 7vh;
   }
-}/*# sourceMappingURL=home.css.map */
+}
+/*# sourceMappingURL=home.css.map */
