@@ -2,7 +2,7 @@
 Infográfico interativo sobre eleições presidencial de 2022, segundo turno, utilizando as tecnologias web (html, css e js) 
 
 Disponível em:
-[epbsantos.github.io/SW2-02-22-infografico](https://epbsantos.github.io/SW2-02-22-infografico/)
+[epbsantos.github.io/SW2-02-22-infografico/info](https://epbsantos.github.io/SW2-02-22-infografico/info)
 
 
 Fonte:
@@ -12,7 +12,7 @@ Fonte:
 ## [Grupos de trabalhos](organizacao.md)
 
 
-## Idéias para plugins visual (organização do inforgŕafico)
+## Idéias para plugins visual (organização do infográfico)
 - [onepage-scroll](https://github.com/peachananr/onepage-scroll)
 - [fullpage.js](https://github.com/alvarotrigo/fullpage.js)
 - [impress.js](https://github.com/impress/impress.js) - [exemplo](https://epbsantos.github.io/SW2-02-22-infografico/id%C3%A9ia%20de%20slides/impress.html)
