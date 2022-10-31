@@ -1,0 +1,166 @@
+.container .content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.container .content-wrapper .header {
+  background: url("/pagina-candidato/bolsonaro/img/banner\ BOLSONARO.jpg") no-repeat center center;
+  background-size: cover;
+}
+.container .content-wrapper .header .header-content {
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  transform: translate(20px, 190px);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container .content-wrapper .header .header-content .candidate-image-wrapper .candidate-image {
+  max-width: 150px;
+  border-radius: 100%;
+}
+.container .content-wrapper .header .header-content .candidate-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin: 0 15px;
+}
+.container .content-wrapper .header .header-content .candidate-info-wrapper .candidate-name {
+  font-size: 22px;
+  margin: 0 10px;
+  
+}
+.container .content-wrapper .header .header-content .candidate-info-wrapper .candidate-partido {
+  font-size: 14px;
+  margin: 0 10px;
+}
+.container .content-wrapper .header .header-content .candidate-info-wrapper .about-candidate {
+  margin: 15px 10px;
+}
+
+.container .candidate-plans{
+  display: flex;
+  flex-direction: column;
+  max-width: 1780px;
+  margin: 0 100px;
+  margin-top: 15rem;
+  text-align: justify;
+}
+.container .candidate-plans .candidate-plans-title-wrapper .candidate-plans-title {
+  font-size: 22px;
+  margin: 0;
+  position: relative;
+  margin-left: 30px;
+}
+.container .candidate-plans .candidate-plans-title:before {
+  content: "";
+  background: url(../img/educacao.png) no-repeat center center;
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -35px;
+  bottom: 1px;
+}
+.container .candidate-plans .candidate-plans-description-wrapper .candidate-plans-description {
+  font-size: 16px;
+}
+
+.candidate-menu {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  right: 50%;
+}
+
+
+ul {
+  position: relative;
+  display: flex;
+  gap: 25px;
+  padding: 5%;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  background-color: #333;
+  border-radius: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+ul li:hover {
+  width: 170px;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0);
+}
+
+ul li:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 60px;
+  background: linear-gradient(45deg, var(--i), var(--j));
+  opacity: 0;
+  transition: 0.5s;
+}
+
+ul li:hover::before {
+  opacity: 1;
+}
+
+ul li:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+  background: linear-gradient(45deg, var(--i), var(--j));
+  transition: 0.5s;
+  filter: blur(15px);
+  z-index: -1;
+  opacity: 0;
+}
+
+ul li:hover::after {
+  opacity: 1;
+}
+
+ul li box-icon {
+  color: #fff;
+  font-size: 1.75em;
+  transition-delay: 0.35s;
+}
+
+ul li:hover box-icon {
+  transform: scale(0);
+  color: #fff;
+  transition-delay: 0s;
+}
+
+ul li span {
+  position: absolute;
+}
+
+ul li .title {
+  color: #fff;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transform: scale(0);
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+ul li:hover .title {
+  transform: scale(1);
+  transition-delay: 0.15s;
+}/*# sourceMappingURL=styles.css.map */
