@@ -23,18 +23,22 @@
 Educação Lula - Matheus Leal
 <br />
 Educação Bolsonaro - Anthony
-
+<br />
+<br />
 Saúde Lula - João Pedro
 <br />
 Saúde Bolsonaro - Matheus Schaurich
-
+<br />
+<br />
 Economia Lula - Érica A Immich
 <br />
 Economia Bolsonaro - Guilherme B. Spiger (guispiger)
-
+<br />
+<br />
 Segurança pública Lula - Lucas
 <br />
 Segurança pública Bolsonaro - Jean
+<br />
 <br />
 Meio Ambiente Lula - Eduardo
 <br />
