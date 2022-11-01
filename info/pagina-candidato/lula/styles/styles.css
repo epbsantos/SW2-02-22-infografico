@@ -1,69 +1,99 @@
-.container .content-wrapper {
-  display: flex;
-  flex-direction: column;
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-.container .content-wrapper .header {
-  background: url("/pagina-candidato/lula/img/banner\ LULA.jpeg") no-repeat center center;
-  background-size: cover;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-.container .content-wrapper .header .header-content {
-  display: flex;
-  flex-direction: row;
-  z-index: 2;
-  transform: translate(20px, 190px);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-.container .content-wrapper .header .header-content .candidate-image-wrapper .candidate-image {
-  max-width: 150px;
-  border-radius: 100%;
-}
-.container .content-wrapper .header .header-content .candidate-info-wrapper {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  margin: 0 15px;
-}
-.container .content-wrapper .header .header-content .candidate-info-wrapper .candidate-name {
-  font-size: 22px;
-  margin: 0 10px;
-  
-}
-.container .content-wrapper .header .header-content .candidate-info-wrapper .candidate-partido {
-  font-size: 14px;
-  margin: 0 10px;
-}
-.container .content-wrapper .header .header-content .candidate-info-wrapper .about-candidate {
-  margin: 15px 10px;
+* {
+  scroll-behavior: smooth;
 }
 
-.container .candidate-plans{
+.btnVoltar {
+  background-color: #002570;
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin: 10px;
+  border: 2px solid #fff;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #b12929, #721f1f, #d63b3b);
+  -webkit-animation: gradient 5s ease-in-out infinite;
+          animation: gradient 5s ease-in-out infinite;
+  background-size: 200% 200%;
+  display: flex;
+  align-items: center;
+  padding-top: 4%;
+  flex-direction: column;
+}
+header .lulaPerfil {
+  width: 300px;
+  border-radius: 10%;
+}
+header h1 {
+  padding: 5px;
+  color: #eee;
+  font-size: 6vh;
+  text-align: center;
+  font-weight: 800;
+}
+header h2 {
+  color: #eee;
+  font-size: 3vh;
+  text-align: center;
+  font-weight: 700;
+}
+header #bio {
+  width: 50%;
+  color: #eee;
+  font-size: 2.7vh;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  header #bio {
+    width: 80%;
+  }
+}
+
+.container .candidate-plans {
   display: flex;
   flex-direction: column;
   max-width: 1780px;
   margin: 0 100px;
-  margin-top: 15rem;
-  text-align: justify;
+  margin-top: 4rem;
 }
 .container .candidate-plans .candidate-plans-title-wrapper .candidate-plans-title {
-  font-size: 22px;
+  font-weight: 700;
+  padding-top: 6vh;
+  padding-bottom: 3vh;
+  font-size: 5vh;
   margin: 0;
-  position: relative;
-  margin-left: 30px;
-}
-.container .candidate-plans .candidate-plans-title:before {
-  content: "";
-  background: url(../img/educacao.png) no-repeat center center;
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  left: -35px;
-  bottom: 1px;
 }
 .container .candidate-plans .candidate-plans-description-wrapper .candidate-plans-description {
-  font-size: 16px;
+  font-size: 3vh;
 }
 
 .candidate-menu {
@@ -74,7 +104,6 @@
   left: 50%;
   right: 50%;
 }
-
 
 ul {
   position: relative;
@@ -88,7 +117,7 @@ ul li {
   list-style: none;
   width: 60px;
   height: 60px;
-  background-color: #333;
+  background-color: #eee;
   border-radius: 60px;
   cursor: pointer;
   display: flex;
@@ -99,7 +128,7 @@ ul li {
 }
 
 ul li:hover {
-  width: 170px;
+  width: 185px;
   box-shadow: 0 16px 24px rgba(0, 0, 0, 0);
 }
 
