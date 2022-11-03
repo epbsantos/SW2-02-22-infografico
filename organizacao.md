@@ -3,14 +3,14 @@
 ## Diretor de Projetos (organização)
 -Paulo Henrique Moreira Martins
 
-## Front (layout)
+## UI/UX Design (Layout)
 -Emanuelle Machado
 <br />
 -João Gustavo Lazzaretti
 <br />
 -Paulo Henrique Moreira Martins
 
-## Back (Programação)
+## Desenvolvimento (Programação)
 -Lucas Oliveira
 <br />
 -Paulo Henrique Moreira Martins
@@ -44,7 +44,7 @@ Meio Ambiente Lula - Eduardo
 <br />
 Meio Ambiente Bolsonaro - Eduardo
 
-## Imagens (edição)
+## Design Gráfico (Imagens)
 -João Felipe Vendramini
 <br />
 -Marco Vinicius Camboim Bellan
