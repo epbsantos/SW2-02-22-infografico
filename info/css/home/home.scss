@@ -272,15 +272,33 @@ section{
             }
         }
 }
+
+//Footer
+@keyframes gradientII{
+    0%{
+        background-position: 0% 50%;
+    }50%{
+        background-position: 100% 50%;
+    }100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
 .footer li a:before {
     content: url("imagem.gif");
     display: block;
     text-align: center;
   }
+  ul{
+    list-style: none;
+  }
   .background{
     background: linear-gradient(45deg, #1940ac, #e8b218, #1dc948);
-    animation: gradient 5s ease-in-out infinite  cubic-bezier(0.42, 0, 0.55, 0.7) infinite;
+    animation: gradientII 5s ease-in-out infinite;
     flex-direction: column;
+    background-size: 200% 200%;
   }
   .footer li a[href$="https://www.tse.jus.br/"]:before {
     content: url("../../img/xTribunal\ \(01\).png");

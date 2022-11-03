@@ -1,3 +1,14 @@
+@-webkit-keyframes mexer {
+  0% {
+    transform: translateY(9px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(9px);
+  }
+}
 @keyframes mexer {
   0% {
     transform: translateY(9px);
@@ -87,7 +98,8 @@ main .main-1 .btn-home:hover {
   transition: 0.4s;
 }
 main .main-1 .btn-home .anima {
-  animation: mexer 2s ease-in-out infinite;
+  -webkit-animation: mexer 2s ease-in-out infinite;
+          animation: mexer 2s ease-in-out infinite;
 }
 main .main-1 .btn-home .anima ion-icon {
   color: #fff;
@@ -250,16 +262,45 @@ section p {
   }
 }
 
+@-webkit-keyframes gradientII {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradientII {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .footer li a:before {
   content: url("imagem.gif");
   display: block;
   text-align: center;
 }
 
+ul {
+  list-style: none;
+}
+
 .background {
   background: linear-gradient(45deg, #1940ac, #e8b218, #1dc948);
-  animation: gradient 5s ease-in-out infinite cubic-bezier(0.42, 0, 0.55, 0.7) infinite;
+  -webkit-animation: gradientII 5s ease-in-out infinite;
+          animation: gradientII 5s ease-in-out infinite;
   flex-direction: column;
+  background-size: 200% 200%;
 }
 
 .footer li a[href$="https://www.tse.jus.br/"]:before {
@@ -281,6 +322,4 @@ section p {
 .text {
   color: #002570;
   font-family: "Hind Madurai", sans-serif;
-}
-
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */
