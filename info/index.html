@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +11,18 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!--BootstraspCSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!--IndexCSS-->
     <link rel="stylesheet" href="./css/main/index.css">
 
     <!--HomeCSS-->
     <link rel="stylesheet" href="./css/home/home.css">
-    
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Square+Peg&display=swap');
+    </style>
 </head>
 <body>
     <div class="fita"></div>
@@ -26,7 +30,11 @@
     <main>
         <div class="main-1">
             <h1 data-aos="slide-right">Eleição 2022</h1>
-            <a data-aos="slide-left" class="btn-home" href="#candidatos" title="Veja as propostas dos candidatos!"><div class="anima"><ion-icon name="chevron-down-outline"></ion-icon></div> </a>
+            <a data-aos="slide-left" class="btn-home" href="#candidatos" title="Veja as propostas dos candidatos!">
+                <div class="anima">
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+            </a>
         </div>
         <div class="wave"></div>
     </main>
@@ -35,41 +43,91 @@
             <div class="row">
                 <p class="selecione">Selecione um candidato:</p>
             </div>
-        <div class="sec-candidatos">
+            <div class="sec-candidatos">
 
-            <div class="lula">
-                <a href="./pagina-candidato/lula/index.html">
-                    <div title="Candidato Luiz Inácio Lula da Silva" data-aos="flip-right" class="img-lula"></div>
-                </a>
-                <div class="nome-lula">
-                    <label>Lula</label>
+                <div class="lula">
+                    <a href="./pagina-candidato/lula/index.html">
+                        <div title="Candidato Luiz Inácio Lula da Silva" data-aos="flip-right" class="img-lula"></div>
+                    </a>
+                    <div class="nome-lula">
+                        <label>Lula</label>
+                    </div>
+                </div>
+                <div class="bolsonaro">
+                    <a href="./pagina-candidato/bolsonaro/index.html">
+                        <div title="Candidato Jair Messias Bolsonaro" data-aos="flip-left" class="img-bolsonaro"></div>
+                    </a>
+                    <div class="nome-bolsonaro">
+                        <label>Bolsonaro</label>
+                    </div>
                 </div>
             </div>
-            <div class="bolsonaro">
-                <a href="./pagina-candidato/bolsonaro/index.html">
-                    <div title="Candidato Jair Messias Bolsonaro" data-aos="flip-left" class="img-bolsonaro"></div>
-                </a>
-                <div class="nome-bolsonaro">
-                    <label>Bolsonaro</label>
-                </div>
-            </div>
-        </div>
     </section>
+    
+    <footer>
+        <div class="text">
+            <div class="background">
+                <div class="navbar navbar-inverse navbar-fixed-bottom">
+                    <div class="container">
+
+                        <div class="navbar-header col medium-4 small-12 large-4" id="col-1237474654">
+                            <div class="col-inner">
+                                <ul class="footer">
+                                    <li><a href="https://www.tse.jus.br/" col="4" class="btn" title="History"
+                                            target="_blank" rel="external"><i
+                                                class="fa fa-2x fa-clock-o blue-text"></i>Tribunal superior
+                                            eleitoral</a></li>
+                                </ul>
+                            </div>
+                        </div>
 
 
+                        <div class="navbar-header col medium-4 small-12 large-4" id="col-1237474654">
+                            <div class="col-inner">
+                                <ul class="footer">
+                                    <li><a href="https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao/consulta-por-nome"
+                                            class="btn" title="Favourites" target="_blank" rel="external"><i
+                                                class="fa fa-2x fa-clock-o blue-text"></i>Onde votar</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="navbar-header col medium-4 small-12 large-4" id="col-1237474654">
+                            <div class="col-inner">
+                                <ul class="footer">
+                                    <li><a href="https://www.tse.jus.br/eleicoes/eleicoes-2018/aplicativos-da-justica-eleitoral/e-titulo"
+                                            class="btn" title="Subscriptions" target="_blank" rel="external"><i
+                                                class="fa fa-2x fa-clock-o blue-text"></i>E-Titulo</a></li>
 
-<!--Box Icons-->
-<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-<!--Ion-Icons-->
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<!--AOS-->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-<!--Bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6 px-3 text-gray text-center alt-text-small">
+                </div>
+                
+            </div>
+            
+        </div>
+    </footer>
+
+    <!--Box Icons-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!--Ion-Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

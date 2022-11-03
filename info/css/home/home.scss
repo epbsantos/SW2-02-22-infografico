@@ -272,3 +272,29 @@ section{
             }
         }
 }
+.footer li a:before {
+    content: url("imagem.gif");
+    display: block;
+    text-align: center;
+  }
+  .background{
+    background: linear-gradient(45deg, #1940ac, #e8b218, #1dc948);
+    animation: gradient 5s ease-in-out infinite  cubic-bezier(0.42, 0, 0.55, 0.7) infinite;
+    flex-direction: column;
+  }
+  .footer li a[href$="https://www.tse.jus.br/"]:before {
+    content: url("../../img/xTribunal\ \(01\).png");
+  }
+  .footer li a[href$="https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao/consulta-por-nome"]:before {
+    content: url("../../img/icone-local-.png");
+  }
+  .footer li a[href$="https://www.tse.jus.br/eleicoes/eleicoes-2018/aplicativos-da-justica-eleitoral/e-titulo"]:before {
+    content: url("../../img/titulo.png");
+  }
+  .footer li a{
+    color: #e9e9e9;
+  }
+  .text{
+    color: #002570;
+    font-family: 'Hind Madurai', sans-serif;
+  }
