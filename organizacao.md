@@ -18,6 +18,8 @@
 -Djhemison Maylan de Oliveira Machado
 <br />
 -Otávio
+<br />
+-Gabrieli
 
 ## Pesquisa
 Educação Lula - Matheus Leal
