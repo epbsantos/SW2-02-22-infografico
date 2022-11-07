@@ -55,4 +55,14 @@ Meio Ambiente Bolsonaro - Eduardo
 <br />
 -Paulo Henrique Moreira Martins
 <br />
--Jacson Cesar
+-Joao vendramani
+<br />
+-Ulisses Menotti
+<br />
+-Gabrieli Gomes Barbosa
+<br />
+-Jacson Siqueira Cesar
+<br />
+-Lucas Winkelmann
+<br />
+-Rafael Medeiros
