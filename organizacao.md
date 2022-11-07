@@ -57,8 +57,6 @@ Meio Ambiente Bolsonaro - Eduardo
 <br />
 -Paulo Henrique Moreira Martins
 <br />
--Joao vendramani
-<br />
 -Ulisses Menotti
 <br />
 -Gabrieli Gomes Barbosa
