@@ -1,3 +1,14 @@
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -13,24 +24,22 @@
   scroll-behavior: smooth;
 }
 
-.btnVoltar {
-  background-color: #002570;
+.controle {
   position: fixed;
-  width: 35px;
-  height: 35px;
+  margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 100%;
-  margin: 10px;
-  border: 2px solid #fff;
+  padding: 4px;
+  z-index: 99;
 }
 
 header {
   width: 100%;
   height: 100vh;
   background: linear-gradient(45deg, #556b2f, #e8b218, #002570);
-  animation: gradient 5s ease-in-out infinite;
+  -webkit-animation: gradient 5s ease-in-out infinite;
+          animation: gradient 5s ease-in-out infinite;
   background-size: 200% 200%;
   display: flex;
   align-items: center;
@@ -85,6 +94,7 @@ header #bio {
 }
 .container .candidate-plans .candidate-plans-description-wrapper .candidate-plans-source {
   font-size: 2vh;
+  padding-bottom: 10vh;
 }
 
 .candidate-menu {
@@ -183,6 +193,4 @@ ul li .title {
 ul li:hover .title {
   transform: scale(1);
   transition-delay: 0.15s;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
