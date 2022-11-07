@@ -23,17 +23,14 @@ $vermelho: #b12929;
 }
 
 //botão de voltar fixo
-.btnVoltar{
-    background-color: #002570;
+.controle{
     position: fixed;
-    width: 35px;
-    height: 35px;
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 100%;
-    margin: 10px;
-    border: 2px solid #fff;
+    padding: 4px;
+    z-index: 99;
 }
 
 header{
@@ -102,6 +99,7 @@ header{
             }
             .candidate-plans-source{
                 font-size: 2vh;
+                padding-bottom: 10vh;  
             }
         }
     }
