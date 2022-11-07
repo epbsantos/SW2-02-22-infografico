@@ -126,6 +126,8 @@ header #bio {
   align-items: center;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
+  --i:#0a6236; 
+  --j: #556b2f;
 }
 
 .buttons-ul li:hover {
