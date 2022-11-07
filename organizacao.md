@@ -9,6 +9,8 @@
 -João Gustavo Lazzaretti
 <br />
 -Paulo Henrique Moreira Martins
+<br />
+-João Pedro Gaspar
 
 ## Desenvolvimento (Programação)
 -Lucas Oliveira
