@@ -1,3 +1,4 @@
 Só para colocar oq foi feito em conjunto nos commits
 Mateus, ajudei um pouco o grupo de edição de fotos mesmo estando no desenvolvimento juntamente com jacson e ulisses
 Jacson, juntamente com todos os membros do gurpo de Desing concluimos todos as edições requisitadas ao nosso grupo, e ficamos no aguardo de novos pedidos para edições futuras!
+Guilherme Cassimiro e Braian Vinicius criaram a ideia de comparar as propostas dos candidatos por temas respectivos lado a lado. Porém, a ideia não foi levada a frente por ser muito difícil para ser implementada.
