@@ -11,6 +11,8 @@
 -Paulo Henrique Moreira Martins
 <br />
 -João Pedro Gaspar
+<br />
+-Diego Gomes
 
 ## Desenvolvimento (Programação)
 -Lucas Oliveira
